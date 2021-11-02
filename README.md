@@ -21,7 +21,7 @@ Usage
 `$this -> breadcrumbs -> placeBreadcrumb ( "<controller>/<method>[/<data>}", "<Method name>" );`
 * Fill in the values according to your controller and method names.
 * make sure the session is started before calling placeBreadcrumb
-* Tip: if you're lazy, you can always get the current function's name with __FUNCTION__
+* Tip: if you're lazy, you can always get the current function's name with `__FUNCTION__`
 
 ### Retrieving Breadcrumbs:
 * to retrieve the breadcrumb list as array, ready to use, call:
